@@ -1,8 +1,12 @@
 
-console.log("Hello World!");
-const name = 'you will win!!';
+function add(num){
+    return num+7;
+}
+function product(a,b){
+    return a*b;
+}
 
-const words = name.split(' ');
-console.log(words)
-console.log(words[1])
-
+let a = add(3);
+let x = product(3,7);
+console.log(a);
+console.log(x);
